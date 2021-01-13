@@ -1,0 +1,27 @@
+{
+    "name": "nodejs-ecommerce-backend-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tarikul711/nodejs-ecommerce-backend-api.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Tarikul711/nodejs-ecommerce-backend-api/issues"
+    },
+    "homepage": "https://github.com/Tarikul711/nodejs-ecommerce-backend-api#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.3.5"
+    }
+}
